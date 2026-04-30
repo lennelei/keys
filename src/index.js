@@ -3,6 +3,13 @@ import keys from "../keys.txt";
 
 export default {
   async fetch(request, env, ctx) {
+    const userAgent = request.headers.get("User-Agent") || "";
+
+    // Si ce n'est pas du curl ou du wget, on affiche un message poli mais ferme
+    if (!userAgent.includes("curl")) {
+      return new Response("Accès réservé.", { status: 403 });
+    }
+    
     return new Response(keys, {
       headers: {
         "Content-Type": "text/plain; charset=UTF-8",
