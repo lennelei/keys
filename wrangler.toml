@@ -1,0 +1,13 @@
+name = "ssh-keys-worker"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Votre domaine personnalisé
+routes = [
+    { pattern = "keys.mauger.cloud", custom_domain = true }
+]
+
+[[rules]]
+type = "Text"
+globs = ["**/*.txt"]
+fallthrough = true
