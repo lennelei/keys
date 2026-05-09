@@ -4,3 +4,5 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIKQso7go4A4o3/UhKeT5zpzXhFay+ydZfniQTJ3LyLx
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIONJ+Ezag+l4FW08k6HULSgzyQgBEwlLCdA/LTJVZjlu alexis@precision-lennelei-wsl2
 # Clé Termius sur iPad Pro 11 - Compte alexis
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOWqdPMvDkSm1LVhN5FCN+y6woeWhiKZSQS+KWypGz7E alexis@ipad-termius
+# Clé sur Chromebook - Compte alexis
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEWDisug6cn1sOJ+4pZVOOzEaeyFmHtr2SkXJYLMUrN8 alexis@chromebook-alexis
