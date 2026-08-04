@@ -6,3 +6,5 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIONJ+Ezag+l4FW08k6HULSgzyQgBEwlLCdA/LTJVZjlu
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOWqdPMvDkSm1LVhN5FCN+y6woeWhiKZSQS+KWypGz7E alexis@ipad-termius
 # Clé sur Chromebook - Compte alexis
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEWDisug6cn1sOJ+4pZVOOzEaeyFmHtr2SkXJYLMUrN8 alexis@chromebook-alexis
+# Clé biométrique non extractible (keystore matériel) Termius sur Samsung Galaxy S23 - Compte alexis
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOmAqjH1FWjm3HRb0yontr4nLD0WmZAUcDPwEowEKqgrC5q7c9OBNY7ZCcs93iMJ8sptgwimpZYUIdVOOY1ejOo= alexis@s23-termius-bio
